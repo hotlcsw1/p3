@@ -1,0 +1,175 @@
+<STYLE TYPE='text/css'>
+Body {
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family: Lato, Verdana, Geneva, sans-serif;
+    font-size:large;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin-left: 43px;
+    color:##CC9900;
+    font-family: Lato, Verdana, Geneva, sans-serif;
+    font-size:15px;
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:40px;
+    border-left: 8px solid grey;
+    border-bottom: 0px solid grey;
+    width: 80%;
+    padding: 45px;
+    margin-left:40px;
+    margin-top: 30px;
+    border-color: #FF9900
+}
+
+.tg td{
+    font-family:Lato, Verdana, Geneva, sans-serif;
+    font-size:18px;
+    padding:15px 20px;
+    border-style:none;
+    border-width:1px;
+    border-left: 8px solid grey;
+    border-bottom: 0px solid grey;
+    overflow:hidden;
+    word-break:normal
+    border-color: #99CC00
+}
+
+.tg th{
+    font-family:Lato, Verdana, Geneva, sans-serif;
+    font-size:22px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:none;
+    border-width:3px;
+    overflow:hidden;
+    word-break:keep-all
+}
+.tg .tg-p96l {
+    font-weight:bold;
+    font-size:21px;
+    vertical-align:top
+}
+.tg .tg-qgsu {
+    font-size:18px;
+    vertical-align:top;
+    padding:15px 50px
+}
+.tg .tg-ecrz{
+    font-size:18px;
+    vertical-align:top;
+    padding:10px 20px
+}
+.tg .tg-vjsu {
+    font-weight:bold;
+    font-size:27px;
+    font-family:Lato, Verdana, Geneva, sans-serif;
+    vertical-align:top
+}
+.tg .tg-ec2z{
+    font-size:18px;
+    vertical-align:top;
+    padding:5px 20px
+}
+
+.container {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: left;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+
+A{
+    color:#339999;
+    margin-left: 43px;
+}
+
+A:Visited {
+    color:#99CC00;
+}
+
+A:Hover {
+    color:#0099FF;
+}
+
+input[type=radio] {
+    padding:5px; border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=radio]:focus {
+    border-color:#99CC00;
+}
+
+input[type=text] {
+    padding:5px; border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-width: thick;
+}
+
+input[type=text]:focus {
+    border-color:#99CC00;
+    border-width: thick;
+}
+
+input[type=submit] {
+    padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-width: thick;
+}
+
+input[type=checkbox] {
+    padding:5px; border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-width: thick;
+}
+
+input[type=checkbox]:focus {
+    border-color:#99CC00;
+    border-width: thick;
+}
+
+.btn {
+  background: #99CC00;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Lato, Verdana, Geneva, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+</STYLE>
