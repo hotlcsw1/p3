@@ -19,13 +19,13 @@
       $view .=  '        <div class="title">';
 
       // Set home address based off of environment
-      $environment = App::environment();
-      //echo $environment;
-      If ($environment='local') {
+      echo $app;
+      If ($app->environment('local')) {
         // The environment is local
         $view .=  '<h6><a href= "http://p3.loc"><--P3 Home</a></h6>';
-      } elseif ($environment='production') {
-        $view .=  '<h6><a href= "http://p3.approjects.me"><--P3 Home</a></h6>';
+      }
+      if ($app->environment('production')) {
+        $view .=  '<h6><a href= "http://p3.loc"><--P3 Home</a></h6>';
       }
 
       $view .=  '<h6><form method="Button" action=""<h6>';
