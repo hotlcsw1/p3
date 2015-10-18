@@ -24,8 +24,9 @@
       If ($environment='local') {
         // The environment is local
         $view .=  '<h6><a href= "http://p3.loc"><--P3 Home</a></h6>';
-      } elseif ($environment='production') {
+      } else {
         $view .=  '<h6><a href= "http://p3.approjects.me"><--P3 Home</a></h6>';
+        echo $environment;
       }
 
       $view .=  '<h6><form method="Button" action=""<h6>';
