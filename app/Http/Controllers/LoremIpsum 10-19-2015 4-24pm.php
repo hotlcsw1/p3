@@ -42,7 +42,7 @@
       $view .=  '<h4>Lorem Ipsum Generator<h4>';
 
       // section for # of paragraphs
-      $view .=  '<h5><label for="noOfParas">Number Of Paragraphs (valid 1-99)? : </label><input id="noOfParas" type="number" name="noOfParas" required="required" min="1" max="99"'.'value="'.$noOfParas .'"></h5>';
+      $view .=  '<h5><label for="noOfParas">Number Of Paragraphs (valid 1-99)?: </label><input id="noOfParas" type="number" name="noOfParas" required="required" min="1" max="99"'.'value="'.$noOfParas .'"></h5>';
 
       // ***Optional parameters***
       $view .=  '<h6>Options...?</h6>';
