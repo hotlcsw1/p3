@@ -5,15 +5,48 @@ Body {
     font-family: Lato, Verdana, Geneva, sans-serif;
     font-size:large;
     font-weight: 100;
-    margin: 0;
-    padding: 0;
+    padding: 10px 0px 10px 0px
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px 3px 0px 4px
+}
+
+h4 {
+    margin-left: 43px;
+    color:#000000;
+    font-family: Lato, Verdana, Geneva, sans-serif;
+    font-size:24px;
+    padding-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+
+h5 {
+    color:#CC3300;
+    font-family: Lato, Verdana, Geneva, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 42px;
+    padding: 0px 0px 4px 0px;
 }
 
 h6 {
-    margin-left: 43px;
-    color:##CC9900;
+    color:#CC3300;
     font-family: Lato, Verdana, Geneva, sans-serif;
-    font-size:15px;
+    font-size:12px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 42px;
+    padding: 4px 0px 4px 0px;
 }
 
 .tg  {
@@ -23,7 +56,7 @@ h6 {
     border-bottom: 0px solid grey;
     width: 80%;
     padding: 45px;
-    margin-left:40px;
+    margin-left: 50px;
     margin-top: 30px;
     border-color: #FF9900
 }
@@ -37,8 +70,8 @@ h6 {
     border-left: 8px solid grey;
     border-bottom: 0px solid grey;
     overflow:hidden;
-    word-break:normal
-    border-color: #99CC00
+    word-break:normal;
+    border-color: #3cb0fd
 }
 
 .tg th{
@@ -51,99 +84,134 @@ h6 {
     overflow:hidden;
     word-break:keep-all
 }
+.tg .tg-vjsu {
+    font-weight: bold;
+    font-size: 27px;
+    font-family: Lato, Verdana, Geneva, sans-serif;
+    vertical-align: top;
+    padding-left: 21px;
+    text-align: left
+}
+
 .tg .tg-p96l {
     font-weight:bold;
     font-size:21px;
-    vertical-align:top
+    vertical-align:top;
+    padding: 0px 4px 10px 21px;
 }
+
+.tg .tg-p962 {
+    font-weight:bold;
+    font-size:21px;
+    vertical-align:top;
+    padding: 0px 5px 10x 10px;
+    border-color: #FFFFFF
+}
+
 .tg .tg-qgsu {
     font-size:18px;
     vertical-align:top;
     padding:15px 50px
 }
+
+.tg .tg-ecra{
+    font-size:13px;
+    font-weight: normal;
+    vertical-align:top;
+    padding: 0px 10px 2px 20px
+}
+
+.tg .tg-ecrb{
+    font-size:14px;
+    font-weight: bold;
+    vertical-align:top;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 17px 5px 5px 20px
+}
+
 .tg .tg-ecrz{
     font-size:18px;
     vertical-align:top;
-    padding:10px 20px
+    padding:10px 20px 10px 25px
 }
-.tg .tg-vjsu {
-    font-weight:bold;
-    font-size:27px;
-    font-family:Lato, Verdana, Geneva, sans-serif;
-    vertical-align:top
-}
+
+
 .tg .tg-ec2z{
-    font-size:18px;
-    vertical-align:top;
-    padding:5px 20px
+    font-size: 18px;
+    vertical-align: top;
+    padding: 5px 20px
 }
 
 .container {
     text-align: left;
-    vertical-align: middle;
+    vertical-align: middle
 }
 
 .content {
     text-align: left;
-    display: inline-block;
+    display: inline-block
 }
 
 .title {
-    font-size: 96px;
+    font-size: 96px
 }
 
 A{
     color:#339999;
-    margin-left: 43px;
+    margin-left: 33px
 }
 
 A:Visited {
-    color:#99CC00;
+    color:#99CC00
 }
 
 A:Hover {
-    color:#0099FF;
+    color:#0099FF
 }
 
 input[type=radio] {
     padding:5px; border:2px solid #ccc;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 5px
 }
-input[type=radio]:focus {
-    border-color:#99CC00;
+input[type=radio]: focus {
+    border-color: #99CC00;
 }
 
 input[type=text] {
     padding:5px; border:2px solid #ccc;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border-width: thick;
+    border-width: thick
 }
 
-input[type=text]:focus {
-    border-color:#99CC00;
-    border-width: thick;
+input[type=text]: focus {
+    border-color: #99CC00;
+    border-width: thick
 }
 
 input[type=submit] {
-    padding:5px 15px; background:#ccc; border:0 none;
-    cursor:pointer;
+    padding: 5px 15px;
+    background: #ccc;
+    border:0 none;
+    cursor: pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border-width: thick;
+    border-width: thick
 }
 
 input[type=checkbox] {
-    padding:5px; border:2px solid #ccc;
+    padding:5px;
+    border: 2px solid #ccc;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border-width: thick;
+    border-width: thick
 }
 
 input[type=checkbox]:focus {
-    border-color:#99CC00;
-    border-width: thick;
+    border-color: #99CC00;
+    border-width: thick
 }
 
 .btn {
@@ -153,14 +221,14 @@ input[type=checkbox]:focus {
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
   font-family: Lato, Verdana, Geneva, sans-serif;
   color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  font-size: 14px;
+  padding: 20px 20px 10px 20px;
+  text-decoration: none
 }
 
 .btn:hover {
@@ -170,6 +238,6 @@ input[type=checkbox]:focus {
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+  text-decoration: none
 }
 </STYLE>

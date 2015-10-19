@@ -11,25 +11,13 @@
 |
 */
 
+// Route for home
 Route::get('/', function () {
     return view('welcome');
 });
 
-
-// Routes from Debugbar
+// Route for /Lorem Lipsum
 Route::get('/loremlipsum', 'P3Controller@getLoremlipsum');
 
-// Index route
-Route::get('/books', 'P3Controller@getIndex');
-
-// Show title route
-Route::get('/books/show/{title?}', 'P3Controller@getShow');
-
-// Create route
-Route::get('/books/create', 'P3Controller@getCreate');
-
-// Post create
-Route::post('/books/create', 'P3Controller@postCreate');
-
-// Log viewer route
-Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+// Route for Random User
+Route::get('/randomuser', 'P3Controller@getRandomUser');

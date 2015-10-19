@@ -16,10 +16,16 @@ class P3Controller extends Controller {
     }
 
     /**
-    * Responds to requests to GET /practice - Home
+    * Responds to requests to GET LoremIpsum
     */
     public function getLoremlipsum() {
       include ('LoremIpsum.php');
+    }
+    /**
+    * Responds to requests to GET /practice - Home
+    */
+    public function getRandomUser() {
+      include ('RandomUser.php');
     }
 
     /**
