@@ -80,37 +80,29 @@
           // Retrieve or set default value of company
           if (!isset($_GET['company'])) {
             $tCompany = "";
-            //echo $tCompany;
           } else {
             $tCompany   = $faker->Company;
-            //echo $tCompany;
           }
 
           // Retrieve or set default value of birthDate
           if (!isset($_GET['birthDate'])) {
             $tBirthDate = "";
-            //echo $tBirthDate;
           } else {
             $tBirthDate = $faker->dateTimeThisCentury->format('Y-m-d');
-            //echo $tBirthDate;
           }
 
           // set default value of address
           if (!isset($_GET['address'])) {
             $tAddress = "";
-            //echo $tAddress;
           } else {
             $tAddress   = $faker->address;
-            //echo $tAddress;
           }
 
           // set default value of allCaps
           if (!isset($_GET['rndmProfile'])) {
             $tRndmText = "";
-            //echo $tRndmText;
           } else {
             $tRndmText = $faker->text;
-            //echo $tRndmText;
           }
 
           // continue with creating table html string

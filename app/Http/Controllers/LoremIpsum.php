@@ -89,7 +89,6 @@
 
       // Retrieve content from loripsum.net site passing the parameters as defined by the user
       $loremURL = "http://loripsum.net/api/" .$noOfParas ."/" .$header ."/" .$shortOrLong ."/" . $AllCaps;
-      //echo $loremURL;
       $loremContent=file_get_contents($loremURL);
 
       // continue with creating html string
