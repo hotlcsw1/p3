@@ -21,3 +21,6 @@ Route::get('/loremlipsum', 'P3Controller@getLoremlipsum');
 
 // Route for Random User
 Route::get('/randomuser', 'P3Controller@getRandomUser');
+
+// Route for Log Viewer i.e. /logs
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

@@ -147,7 +147,8 @@ return [
 
         Barryvdh\Debugbar\ServiceProvider::class,
         'Magyarjeti\LaravelLipsum\LipsumServiceProvider',
-
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        
     ],
 
     /*
