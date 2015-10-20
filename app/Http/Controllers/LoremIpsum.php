@@ -47,9 +47,6 @@
       // ***Optional parameters***
       $view .=  '<h6>Options...?</h6>';
 
-      // section for header
-      $view .=  '<h5><label for="header">Header? : </label><input id="header" type="checkbox" name="header" value="headers"></h5>';
-
       // section for short, medium, long or very long paragraphs
       $view .=  '<h5><label for="shortOrLong">Prefer short or long paragraphs? : </label><input id="shortOrLong" type="radio" name="shortOrLong" ' .' value="long">Long';
       $view .=  '<input id="shortOrLong" type="radio" name="shortOrLong"' .' value="verylong">Very Long';
@@ -59,8 +56,14 @@
       // section for all caps
       $view .=  '<h5><label for="allCaps">ALL CAPS? : </label><input id="allCaps" type="checkbox" name="allCaps" value="allcaps"></h5>';
 
+      // section for header
+      $view .=  '<h5><label for="header">Header? : </label><input id="header" type="checkbox" name="header" value="headers"></h5>';
+
       // button to generate content
       $view .=  '<h6><input type="submit" class="btn" value="Generate Random Content!"></h6>';
+
+      // horizontal line
+      $view .=   '<hr>';
 
       // ***Retrieve or set values selected by the user***
       // Retrieve or set default value of header
@@ -90,12 +93,12 @@
       $loremContent=file_get_contents($loremURL);
 
       // continue with creating html string
-      $view .=   '<table class="tg">';
+      $view .=   '<table class="tga">';
       $view .=  '          <tr>';
-      $view .=  '            <td class="tg-p96l">Here is some random text for your use...</td>';
+      $view .=  '            <td class="tga-p96l">Here is some random text for your use...</td>';
       $view .=  '          </tr>';
       $view .=  '          <tr>';
-      $view .=  '            <td class="tg-ecrz">'.$loremContent.'</td>';
+      $view .=  '            <td class="tga-ecrz">'.$loremContent.'</td>';
       $view .=  '          </tr>';
       $view .=  '        </table>';
       $view .=  '        </div>';

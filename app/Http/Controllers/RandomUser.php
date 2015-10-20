@@ -66,9 +66,9 @@
       $faker = Faker\Factory::create();
 
       // create the table
-      $view .=   '<table class="tg">';
+      $view .=   '<table class="tga">';
       $view .=  '          <tr>';
-      $view .=  '            <td class="tg-p96l">Here are some random users for your use...</td>';
+      $view .=  '            <td class="tga-p96l">Here are some random users for your use...</td>';
       $view .=  '          </tr>';
 
       // Create a for loop to request 'noOfUSers' i.e. no. of users
@@ -115,7 +115,7 @@
 
           // continue with creating table html string
           $view .=  '          <tr>';
-          $view .=  '            <td class="tg-ecrb"> '.$tName .'<br></td>';
+          $view .=  '            <td class="tga-ecrb"> '.$tName .'<br></td>';
           $view .=  '          </tr>';
 
           // add company to the table's html
@@ -124,7 +124,7 @@
           } elseif ($tCompany!=""){
               # print the company value
               $view .=  '          <tr>';
-              $view .=  '            <td class="tg-ecra"> Company : ' .$tCompany .'<br></td>';
+              $view .=  '            <td class="tga-ecra"> Company : ' .$tCompany .'<br></td>';
               $view .=  '          </tr>';
             }
 
@@ -134,7 +134,7 @@
           } elseif ($tBirthDate!=""){
               # print the birthday value
               $view .=  '          <tr>';
-              $view .=  '            <td class="tg-ecra"> Birth Date : ' .$tBirthDate .'<br></td>';
+              $view .=  '            <td class="tga-ecra"> Birth Date : ' .$tBirthDate .'<br></td>';
               $view .=  '          </tr>';
           }
 
@@ -144,7 +144,7 @@
           } elseif ($tAddress!="") {
             # print the address value
               $view .=  '          <tr>';
-              $view .=  '            <td class="tg-ecra"> Address : ' .$tAddress .'<br></td>';
+              $view .=  '            <td class="tga-ecra"> Address : ' .$tAddress .'<br></td>';
               $view .=  '          </tr>';
           }
 
@@ -154,7 +154,7 @@
           } elseif ($tRndmText!="") {
               # print the profile value
               $view .=  '          <tr>';
-              $view .=  '            <td class="tg-ecra"> Profile : ' .$tRndmText .'<br></td>';
+              $view .=  '            <td class="tga-ecra"> Profile : ' .$tRndmText .'<br></td>';
               $view .=  '          </tr>';
             }
       }
