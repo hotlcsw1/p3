@@ -2,14 +2,14 @@
 
 Author       : Arcot Prakash
 Date Created : 10/16/2015
-Date Updated : 10/20/2015
-Time Updated : Approx. 1:35 PM
+Date Updated : 10/21/2015
+Time Updated : Approx. 12:02 PM
 
 Live URL: p3.approjects.me
 
 GitHub URL: https://github.com/hotlcsw1/p3
 
-Jing Demo: http://screencast.com/t/F3juqMcM
+Jing Demo: http://www.screencast.com/t/AqlQUX04w0O
 
 Description:
 This is project number three focused on helping me learn how to work with Laravel Framework, manage dependencies using composer, deploy a live application to digital ocean, use routes and incorporate views into applications.  On the welcome page there are links to two applications that I created.  First application is to generate Lorem-ipsum paragraphs.  The user can select how many paras they desire along with options such as header, para's length and all caps.  The second application is to generate random users.  The user can select how many new users they need along with options such as DOB, profile, company and address.
